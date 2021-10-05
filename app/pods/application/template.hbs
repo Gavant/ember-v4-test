@@ -1,7 +1,9 @@
 {{page-title 'Ember v4 Test'}}
-<h1>TEST!</h1>
-{{#if (eq 0 0)}}
-  success
-{{/if}}
-
+<h1><FaIcon @icon='coffee' /> Ember v4 Test</h1>
+<ModifierTest />
 {{outlet}}
+{{#if (can 'create foo')}}
+    You can create foo.
+{{else}}
+    You can't create foo.
+{{/if}}
