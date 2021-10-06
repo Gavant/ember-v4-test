@@ -1,0 +1,26 @@
+<header class='p-3 bg-success bg-opacity-75 text-white'>
+    <div class='container'>
+        <div class='d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start'>
+            <LinkTo @route='main.index' class='d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none'>
+                <FaIcon @icon='pied-piper-pp' @prefix='fab' @size='3x' />
+            </LinkTo>
+
+            <ul class='nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0'>
+                <li>
+                    <LinkTo @route='main.index' @activeClass='text-white' class='nav-link px-2'>
+                        Home
+                    </LinkTo>
+                </li>
+                <li><a href='#' class='nav-link px-2 text-white-50'>Features</a></li>
+                <li><a href='#' class='nav-link px-2 text-white-50'>Pricing</a></li>
+                <li><a href='#' class='nav-link px-2 text-white-50'>FAQs</a></li>
+                <li><a href='#' class='nav-link px-2 text-white-50'>About</a></li>
+            </ul>
+
+            <div class='text-end'>
+                <LinkTo @route='login' class='btn btn-outline-light me-2'>Login</LinkTo>
+                <button type='button' class='btn btn-light'>Sign up</button>
+            </div>
+        </div>
+    </div>
+</header>
