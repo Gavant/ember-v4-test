@@ -1,0 +1,7 @@
+.app-header {
+    a {
+        &.active {
+            color: $white !important;
+        }
+    }
+}

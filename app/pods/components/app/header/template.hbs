@@ -1,4 +1,4 @@
-<header class='p-3 bg-success bg-opacity-75 text-white'>
+<header class='p-3 bg-success bg-opacity-75 text-white app-header'>
     <div class='container'>
         <div class='d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start'>
             <LinkTo @route='main.index' class='d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none'>
@@ -7,11 +7,15 @@
 
             <ul class='nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0'>
                 <li>
-                    <LinkTo @route='main.index' @activeClass='text-white' class='nav-link px-2'>
+                    <LinkTo @route='main.index' class='nav-link px-2 text-white-50'>
                         Home
                     </LinkTo>
                 </li>
-                <li><a href='#' class='nav-link px-2 text-white-50'>Features</a></li>
+                <li>
+                    <LinkTo @route='main.features' class='nav-link px-2 text-white-50'>
+                        Features
+                    </LinkTo>
+                </li>
                 <li><a href='#' class='nav-link px-2 text-white-50'>Pricing</a></li>
                 <li><a href='#' class='nav-link px-2 text-white-50'>FAQs</a></li>
                 <li><a href='#' class='nav-link px-2 text-white-50'>About</a></li>
