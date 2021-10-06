@@ -7,4 +7,8 @@
 {{else}}
     You can't create foo.
 {{/if}}
+<p>
+    Moment:
+    {{moment-format '01-1985-26' 'MM/DD/YYYY' 'MM-YYYY-DD'}}
+</p>
 <NotificationContainer @position='top-right' @zindex='9999' />

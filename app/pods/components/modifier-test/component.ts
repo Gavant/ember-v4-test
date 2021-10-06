@@ -13,6 +13,6 @@ export default class ModifierTest extends Component<ModifierTestArgs> {
 
     @action
     onDidInsert() {
-        this.notifications.success('<ModifierTest /> was inserted in the DOM!');
+        console.log('<ModifierTest /> was inserted in the DOM!');
     }
 }
